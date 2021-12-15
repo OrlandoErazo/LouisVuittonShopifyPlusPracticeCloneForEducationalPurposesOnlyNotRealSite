@@ -1,0 +1,127 @@
+.container {
+  width: 100%;
+  max-width: 94%;
+  margin: 0 auto;
+  
+}
+
+.top-nav {
+  padding: 10px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.top-nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.top-nav__groupa-link .fas,
+.top-nav__groupa-link .far {
+  font-size: 1rem;
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.top-nav__groupa-link {
+  padding-right: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav__groupa {
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.top-nav__groupa-linktext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav__groupb {
+  display: flex;
+}
+
+.top-nav__groupb-icon {
+  color: black;
+  text-decoration: none;
+  display: inline;
+  font-size: 1rem;
+  width: 3rem;
+  /* background: red; */
+  display: flex;
+  justify-content: center;
+}
+
+.top-menu{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6; 
+}
+
+.top-menu .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.top-menu__groupa{
+  display: flex;
+  align-items: center;
+}
+
+.top-menu__groupa-logo{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 2.5rem;  
+}
+
+.top-menu__groupa-links{
+  display: flex;
+  align-items: center;  
+}
+
+.top-menu__groupa-link{
+  color: black;
+  text-decoration: none;
+  font-size: 0.7rem;
+  margin-right: 1.5rem;
+  text-transform: uppercase;
+}
+
+.top-menu__groupb{
+  width: 100%;
+  min-width: 40px;
+}
+
+.top-menu__groupb-input{
+  width: 100%;
+  min-width: 400px;
+  background: #f8f8f8;
+  border-radius: 9px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-menu__groupb-input .fas{
+  font-size: 1rem;
+  margin-right: 0.8rem;
+}
+
+.top-menu__groupb-search{
+  width: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 0.6rem;  
+}
