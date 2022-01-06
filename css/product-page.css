@@ -17,7 +17,10 @@
 
 .product-info__gallery-item{
   width: 100%;
-  height: 100%;    
+  height: 100%;
+  cursor: pointer;
+  background: #f6f5f3; 
+  overflow: hidden;     
 }
 
 .product-info__gallery-item:first-child{
@@ -29,9 +32,126 @@
   height: 100%;
   object-fit: contain;
   object-position: center;
+  opacity: .7;
+  transform: scale(1) rotate(0);
+  transition: all .8s ease-in-out;
 }
 
-.product-info__details{
-  background: red;
-  width: 33.33%;
+.product-info__gallery-img:hover{
+  opacity: 1;
+  transform: scale(1.1) rotate(3deg);
 }
+
+.product-info__details{  
+  width: 33.33%;
+  padding: 3%;
+}
+
+.product-info__sub-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info__title{
+  font-size: 2.35rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 1rem 0 2rem;
+  border-bottom: 1px solid #e6e6e6;
+  
+}
+
+.product-info__materials{
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.product-info__materials-title{
+  font-size: 1rem;
+  font-weight: 600;
+  
+}
+
+.product-info__materials-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-info__materials-circle{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: black;
+}
+
+.product-info__price{
+  padding: 2rem 0;
+  display: flex;  
+  font-size: 1.2rem;
+  font-weight: 900;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.product-info__cart-btn{
+  padding: 1rem 0;
+  background: rgba(0,0,0,1);
+  color: white;
+  display: flex;  
+  font-size: .9rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  margin-bottom: 2rem;
+}
+
+.product-info__cart-btn:hover{  
+  background: rgba(0,0,0,.8);  
+}
+
+.product-info__description{
+  line-height: 1.8;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.product-info__extra{
+ 
+}
+
+.product-info__extra-item{
+  display: flex;
+  /* justify-content: center; */
+  align-items: normal;
+  padding: 2rem 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.product-info__extra-icon{
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.product-info__extra-details h4{
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: .8rem;
+}
+
+.product-info__extra-details p{
+  font-size: .9rem;  
+  margin-bottom: .8rem;
+}
+
+
+
